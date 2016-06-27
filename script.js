@@ -4,7 +4,7 @@ var output='';
 if(input<1)
 {
 	document.getElementById('FizzBuzz').textContent='Error!\n自然数を入力してみよう';
-	return;
+	return 0;
 }
 
 for(var i=1;i<=input;i++)
