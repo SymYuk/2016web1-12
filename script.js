@@ -1,23 +1,23 @@
 var input=parseInt(window.prompt('FizzBuzzしよう！回数を入力'));
-var output='あ';
+var output="";
 
 if(input<1)
 {
-	document.getElementById('FizzBuzz').textContent='Error!\n自然数を入力してみよう';
+	document.getElementById('FizzBuzz').textContent="Error!\n自然数を入力してみよう";
 }
 
 else
 {
-	for(var i=1;i<=input;i++)
+	for(var i = 1 ; i <= input ; i++)
 	{
-		if(i%3==0)
-		{output += 'Fizz\n';}
+		if(i%3 == 0)
+			output += "Fizz\n";
 		else if(i%5==0)
-		{output += 'Buzz\n';}
+			output += "Buzz\n";
 		else if(i%15==0)
-		{output += 'FizzBuzz\n';}
+			output += "FizzBuzz\n";
 		else
-		{output += 'i\n';}
+			output += i+"\n";
 	}
-	document.getElementById('FizzBuzz').textContent='さくせす';
+	document.getElementById('FizzBuzz').textContent="さくせす";
 }
