@@ -1,4 +1,4 @@
-var input=parseInt(window.prompt("FizzBuzzしよう！回数を入力"));
+var input=parseInt(window.prompt("FizzBuzzしよう！半角英数字で自然数を入力してください"));
 if(input<1)
 	document.write('Error!  自然数を入力してみよう');
 else
