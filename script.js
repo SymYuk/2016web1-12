@@ -18,7 +18,7 @@ else
 			output += "Fizz";
 		else
 			output += i;
-		output += \n;
+		output += '\n';
 	}
 	document.getElementById("FizzBuzz").textContent=output;
 }
