@@ -3,21 +3,20 @@ var output='';
 
 if(input<1)
 {
-	document.GetElementById('FizzBuzz').textContent='Error! 自然数を入力してみよう';
+	document.getElementById('FizzBuzz').textContent='Error!\n自然数を入力してみよう';
 	return;
 }
 
 for(var i=1;i<=input;i++)
 {
-	var li=Document.createElement('FizzBuzz')
 	if(i%3==0)
-	output += 'Fizz';
+	{output += 'Fizz\n';}
 	else if(i%5==0)
-	output += 'Buzz';
+	{output += 'Buzz\n';}
 	else if(i%15==0)
-	output += 'FizzBuzz';
+	{output += 'FizzBuzz\n';}
 	else
-	output += 'i';
+	{output += 'i\n';}
 }
 
 document.getElementById('FizzBuzz').textContent=output;
