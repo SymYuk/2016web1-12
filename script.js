@@ -11,13 +11,14 @@ else
 	for(var i = 1 ; i <= input ; i++)
 	{
 		if(i%15==0)
-			output += "FizzBuzz\n";
+			output = "FizzBuzz";
 		else if(i%5==0)
-			output += "Buzz\n";
+			output = "Buzz";
 		else if(i%3 == 0)
-			output += "Fizz\n";
+			output = "Fizz";
 		else
-			output += i+"\n";
-	}
+			output = i;
 	document.getElementById("FizzBuzz").textContent=output;
+	document.write("\n");
+	}
 }
