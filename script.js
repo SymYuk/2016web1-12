@@ -6,6 +6,7 @@ if(input<1)
 	document.getElementById("FizzBuzz").textContent="Error!\n自然数を入力してみよう";
 }
 
+/*
 else
 {
 	for(var i = 1 ; i <= input ; i++)
@@ -21,4 +22,20 @@ else
 		output += '\n';
 	}
 	document.getElementById("FizzBuzz").textContent=output;
+}
+*/
+
+else
+{
+	for(var i = 1 ; i <= input ; i++)
+	{
+		if(i%15==0)
+			document.whiteIn("FizzBuzz");
+		else if(i%5==0)
+			document.whiteIn("Buzz");
+		else if(i%3 == 0)
+			document.whiteIn("Fizz");
+		else
+			document.whiteIn(i);
+	}
 }
