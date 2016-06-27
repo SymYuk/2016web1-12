@@ -1,15 +1,7 @@
 var input=parseInt(window.prompt("FizzBuzzしよう！回数を入力"));
-var output="";
-
-document.open();
-
 if(input<1)
-{
 	document.writeln('Error!  自然数を入力してみよう');
-	
-}
 else
-{
 	for(var i = 1 ; i <= input ; i++)
 	{
 		if(i%15==0)
@@ -21,6 +13,3 @@ else
 		else
 			document.writeln(i+"  ,");
 	}
-}
-
-document.close();
