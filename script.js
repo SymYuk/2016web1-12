@@ -1,28 +1,10 @@
 var input=parseInt(window.prompt("FizzBuzzしよう！回数を入力"));
 var output="";
 
+document.open();
+
 if(input<1)
 	document.writeln("Error!\n自然数を入力してみよう");
-
-/*
-else
-{
-	for(var i = 1 ; i <= input ; i++)
-	{
-		if(i%15==0)
-			output += "FizzBuzz";
-		else if(i%5==0)
-			output += "Buzz";
-		else if(i%3 == 0)
-			output += "Fizz";
-		else
-			output += i;
-		output += '\n';
-	}
-	document.getElementById("FizzBuzz").textContent=output;
-}
-*/
-
 else
 {
 	for(var i = 1 ; i <= input ; i++)
@@ -37,3 +19,5 @@ else
 			document.writeln(i);
 	}
 }
+
+document.close();
