@@ -6,7 +6,6 @@ document.open();
 if(input<1)
 {
 	document.writeln('Error!'+'\n'+'\n自然数を入力してみよう');
-	document.writeln('Error!'+'\n'+'\n自然数を入力してみよう');
 	
 }
 else
