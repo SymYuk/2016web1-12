@@ -2,9 +2,7 @@ var input=parseInt(window.prompt("FizzBuzzしよう！回数を入力"));
 var output="";
 
 if(input<1)
-{
-	document.getElementById("FizzBuzz").textContent="Error!\n自然数を入力してみよう";
-}
+	document.writeln("Error!\n自然数を入力してみよう");
 
 /*
 else
