@@ -5,11 +5,11 @@ else
 	for(var i = 1 ; i <= input ; i++)
 	{
 		if(i%15==0)
-			document.writeln("FizzBuzz  ,");
+			document.writeln("FizzBuzz,");
 		else if(i%5==0)
-			document.writeln("Buzz  ,");
+			document.writeln("Buzz,");
 		else if(i%3 == 0)
-			document.writeln("Fizz  ,");
+			document.writeln("Fizz,");
 		else
-			document.writeln(i+"  ,");
+			document.writeln(i+",");
 	}
