@@ -4,10 +4,10 @@ var output='';
 if(input<1)
 {
 	document.getElementById('FizzBuzz').textContent='Error!\n自然数を入力してみよう';
-	return;
 }
 
-
+else
+{
 	for(var i=1;i<=input;i++)
 	{
 		if(i%3==0)
@@ -20,3 +20,4 @@ if(input<1)
 		{output += 'i\n';}
 	}
 	document.getElementById('FizzBuzz').textContent=output;
+}
