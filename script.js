@@ -1,5 +1,5 @@
 var input=parseInt(window.prompt('FizzBuzzしよう！回数を入力'));
-var output='';
+var output='あ';
 
 if(input<1)
 {
