@@ -19,5 +19,5 @@ else
 		else
 		{output += 'i\n';}
 	}
-	document.getElementById('FizzBuzz').textContent=output;
+	document.getElementById('FizzBuzz').textContent='さくせす';
 }
